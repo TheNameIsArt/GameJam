@@ -7,7 +7,7 @@ using UnityEngine;
 public class SpawnerScript : MonoBehaviour
 {
     public GameObject Hairy;
-    private float timer = 0;
+    //private float timer = 0;
     public float spawnRate;
     public List<GameObject> enemyList = new List<GameObject>();
     public LogicScript logic;
