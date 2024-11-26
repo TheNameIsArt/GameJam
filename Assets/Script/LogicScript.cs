@@ -63,6 +63,7 @@ public class LogicScript : MonoBehaviour {
         if (gameIsOver == false)
         {
             Debug.Log("You Win!");
+
         }
     }
 }
