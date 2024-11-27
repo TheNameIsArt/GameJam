@@ -37,7 +37,7 @@ public class PickUpPhone : MonoBehaviour
             }
 
             // Check lose condition if the button is visible
-            if (buttonVisible && Time.time - buttonAppearTime >= 2f)
+            if (buttonVisible && Time.time - buttonAppearTime >= 5f)
             {
                 HandleLoseCondition();
             }
