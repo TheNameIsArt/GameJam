@@ -12,9 +12,9 @@ public class HairyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pointSound = GameObject.FindGameObjectWithTag("Point").GetComponent<AudioSource>();
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
-        spawner = GameObject.FindGameObjectWithTag("Spawner").GetComponent<SpawnerScript>();
+        pointSound = GameObject.Find("PointPlayer").GetComponent<AudioSource>();
+        logic = GameObject.Find("Logic").GetComponent<LogicScript>();
+        spawner = GameObject.Find("Spawner").GetComponent<SpawnerScript>();
         
 
 

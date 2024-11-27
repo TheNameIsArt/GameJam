@@ -20,15 +20,12 @@ public class SpawnerScript : MonoBehaviour
     }
     void spawnHarry()
     {
-        
-            for( var i = 1; i < 10; i++ )
-   
-            enemyList.Add(Instantiate(Hairy, new Vector3(Random.Range(-7, 7), Random.Range(-4, 4), 5), transform.rotation));
-            // Call instantiate here
-        
-   
+
+        for (var i = 1; i < 10; i++)
+
+            enemyList.Add(Instantiate(Hairy, new Vector3(Random.Range(-7, 7), Random.Range(-4, 4), 90), transform.rotation));
+        // Call instantiate here
+
+
     }
 }
-
-
-

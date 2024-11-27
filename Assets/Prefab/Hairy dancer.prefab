@@ -30,9 +30,9 @@ Transform:
   m_GameObject: {fileID: 7043494248872614131}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: -0.4, z: 0.079365954}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -195,5 +195,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hairy: {fileID: 7043494248872614131}
   pointSound: {fileID: 8015038251406582278, guid: eaf0b62fe04d0b6409f8f6b235456076, type: 3}
-  logic: {fileID: 1762432764370643855, guid: b31e961b2149e134884ac5ad227de090, type: 3}
+  logic: {fileID: 0}
   spawner: {fileID: 0}
